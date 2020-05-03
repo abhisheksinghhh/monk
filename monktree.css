@@ -1,0 +1,173 @@
+* {
+  font-family: "Segoe UI";
+}
+#img {
+  position: relative;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+ul li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  position: absolute;
+  top: 20px;
+  display: block;
+}
+ul {
+  list-style-type: none;
+  float: right;
+}
+ul li a {
+  text-decoration: none;
+  float: left;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+
+  transition: 0.6s ease;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+#in:hover {
+  box-shadow: blue;
+}
+button {
+  outline: none;
+  border: none;
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+#sign {
+  height: 30px;
+  width: 100px;
+  padding-left: 15px;
+  background-color: white;
+  color: #ff7225;
+  transition: 1s;
+}
+li {
+  transition: 1s;
+}
+li:hover {
+  /* transform: scale(1.1); */
+}
+#sign:hover {
+  background-color: #ff7423;
+  transform: scale(1.1);
+  color: white;
+}
+
+.in {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  padding-top: 32px;
+  border-radius: 10%;
+  margin: 10px;
+  -webkit-box-shadow: 0 0 10px rgb(155, 155, 155);
+  box-shadow: 0 0 10px rgb(155, 155, 155);
+}
+.in:hover {
+  -webkit-box-shadow: 0 0 10px rgb(65, 177, 241);
+  box-shadow: 0 0 10px rgb(65, 177, 241);
+}
+
+input::-webkit-input-placeholder {
+  color:grey;
+  text-align: center;
+}
+
+input:-moz-placeholder {
+  color:grey;
+  text-align: center;
+}
+
+input::-moz-placeholder {
+  color:grey;
+  text-align: center;
+}
+
+input:-ms-input-placeholder {
+  color:grey;
+  text-align: center;
+}
+
+#search-box {
+  display: inline;
+  /* width: 450px; */
+  /* height: 100px; */
+  position: relative;
+}
+
+#input {
+  display: inline-block;
+  position: relative;
+  /* top: 20px; */
+  /* right: 50px; */
+  left: 50px;
+  box-sizing: border-box;
+  width: 0px;
+  height: 40px;
+  /* padding: 0 20px; */
+  outline: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #29313a;
+  border: 3px solid #ff7225;
+  transition: all 0.8s ease;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color:gray
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: gray;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color:gray;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: gray;
+}
+
+#btn {
+  display: inline;
+  position: relative;
+  padding: 10px;
+  background:white;
+  border-radius: 5%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  
+  transition: all 0.8s ease;
+}
+
+#input.active {
+  width: 200px;
+  /* right: 100px; */
+  height: 46px;
+  left: 0;
+}
