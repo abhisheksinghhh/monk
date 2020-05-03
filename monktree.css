@@ -176,6 +176,7 @@ input:-ms-input-placeholder {
 }
 #b{
   color: #ff7225;
+  transition:1sec
 }
 #b:hover{
   background-color: #ff7225;
